@@ -19,7 +19,7 @@ int main() {
         for (int i = 0; i < n; i++) {
             cin >> a[i];
             freq[a[i]]++;
-            index[a[i]] = i + 1;  // store 1-based index
+            index[a[i]] = i + 1;
         }
 
         int answer = -1;
