@@ -5,8 +5,6 @@ void solve() {
     long long N, M;
     cin >> N >> M;
 
-    // Case 1: M is within the bounds of N
-    // We can trivially satisfy the condition using f(0) or f(1)
     if (M <= N) {
         if (M == 1) {
             cout << 1 << " " << 2 << "\n";
@@ -16,8 +14,6 @@ void solve() {
         return;
     }
 
-    // Case 2: M > N
-    // We iterate through possible values of k (from 2 up to 30)
     for (int k = 2; k <= 30; k++) {
         long long P = (1LL << k) - 1; // 2^k - 1
         long long Q = (1LL << k) - 2; // 2^k - 2
