@@ -6,8 +6,7 @@ using namespace std;
 void solve() {
     int n;
     cin >> n;
-    
-    // Check if the number is already imperfect
+
     if ((n % 2 == 0 || n % 5 == 0) && (n % 10 != 0)) {
         cout << 0 << "\n";
     } 
