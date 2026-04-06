@@ -8,7 +8,6 @@ public:
         vector<pair<int,int>> directions = {
             {0, 1}, {1, 0}, {0, -1}, {-1, 0}
         };
-
         int x = 0, y = 0;
         int dir = 0;
         int maxDist = 0;
